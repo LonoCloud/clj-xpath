@@ -172,7 +172,7 @@ See: format"
 
 (def ^String foo "stuff")
 
-(def ^{:dynamic true :tag javax.xml.xpath.XPathFactory} *xpath-factory* (org.apache.xpath.jaxp.XPathFactoryImpl.))
+(def ^{:dynamic true :tag javax.xml.xpath.XPathFactory} *xpath-factory* (com.sun.org.apache.xpath.internal.jaxp.XPathFactoryImpl.))
 
 (def ^{:dynamic true :tag javax.xml.xpath.XPath} *xpath-compiler* (.newXPath *xpath-factory*))
 

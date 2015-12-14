@@ -22,5 +22,4 @@
                          :1.6 {:dependencies [[org.clojure/clojure "1.6.0"]]}
                          :1.7 {:dependencies [[org.clojure/clojure "1.7.0"]]}}
   :aliases              {"all" ["with-profile" "1.5:1.6:1.7"]}
-  :global-vars          {*warn-on-reflection* true}
-  :dependencies         [[xalan "2.7.1"]])
+  :global-vars          {*warn-on-reflection* true})
